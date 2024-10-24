@@ -1,0 +1,111 @@
+/* Author: Antonette Petallo, 000900501 */
+.header {
+    margin: 0;
+    padding: 0;
+}
+.nav {
+    margin: 0;
+    padding: 0;
+}
+.footer {
+    margin: 0;
+    padding: 0;
+}
+.head {
+    display: grid;
+    text-align: left;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+}
+.logo {
+    width: 70px;
+    height: 70px;
+}
+.sign-in {
+    justify-self: end;
+}
+.sign-in button{
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.sign-in button:hover {
+    background-color: #089247;
+}
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav {
+    position: sticky;
+    top: 0;
+    height: 5rem;
+    border-top: solid #0172BA;
+    border-bottom: solid #0172BA;
+    background-color: #ecf7fe;
+    margin-top: 20px;
+}
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0.8rem;
+    list-style-type: none;
+}
+.shape {
+    text-align: center;
+    padding-top: 0.8rem;
+    margin-right: 2rem;
+    height: 35px;
+    width: 110px;
+    color: #0172BA;
+    background-color: white;
+    border: solid 2px #0172BA;
+    border-radius: 40px 0px 40px 0px;
+}
+.shape:hover {
+    background-color: #ecf7fe;
+}
+nav div span a {
+    text-decoration: none;
+}
+footer {
+    background-image: url(images/newhampshire.jpg);
+}
+.footer-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+.line {
+    border-bottom: 1px solid rgb(78, 78, 222);
+    margin-bottom: -10px;
+    font-weight: bold;
+}
+.about-us p,
+.seminars p,
+.countries p {
+    margin: 5px 0;
+}
+.about-us {
+    grid-column: 1;
+}
+.travel-time {
+    grid-column: 2;
+    text-align: center;
+    grid-row: 2;
+    color: #0172BA;
+}
+.travel-time img {
+    margin-top: 0;
+}
+.seminars {
+    grid-column: 3;
+}
+.countries {
+    grid-column: 3;
+}

@@ -1,0 +1,276 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+    <head> 
+        <!-- Author: Antonette Petallo, 000900501-->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="traveltime.css" type="text/css">
+        <title>Travel Time</title> 
+        <style>
+            main {
+                padding-left: 100px;
+                padding-right: 100px;
+            }
+            .background {
+                background-color: #0172BA;
+                color: white;
+            }
+            .table {
+                background-color:#CEECFE;
+                display: flex;
+                flex-direction: column;
+                padding: 0px;
+                border: solid black;
+            }
+            .table-container {
+                display: flex;
+            }
+            .trails-heading {
+                text-align: center;
+                margin: 0;
+            }
+            .national,
+            .provincial {
+                flex: 1;
+                margin: 0;
+                justify-content: center;
+                padding-left: 20px;
+            }
+            .divider {
+                border: 1px solid black;
+                height: 90px;
+                align-self:center;
+            }
+            .container {
+                display: flex;
+                justify-content: space-between;
+                padding-right: 0px;
+            }
+            .left,
+            .right {
+                flex: 1;
+                grid-row: 1;
+            }
+            .middle {
+                flex: 2.1;
+                margin: 0 20px;
+                align-items: flex-start;
+            } 
+            .table {
+                margin-top: 20px;
+            }
+            .right {
+                display: flex;
+                flex-direction: column;
+                padding-top: 20px;
+            }
+            .right img{
+                margin-bottom: 50px;
+                width: 200px;
+            }
+            x.content {
+                align-items: flex-start;
+            }
+            .left-image {
+                float: left;
+                margin-right: 10px;
+            }
+            .right-image {
+                float: right;
+            }
+
+            .gallery {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+            .provided {
+                width: 150px;
+                height: 150px;
+                border: 1px solid black;
+                margin: 5px;
+            }
+            .adjust {
+                margin: 20px;
+                padding-top: 22px;
+                padding-bottom: 22px;
+                width: 150px;
+                height: 107px;
+                border: 1px solid black;
+                margin: 5px;
+            }
+            .middle-content {
+                overflow: hidden;
+            }
+            .credits {
+                position: relative;
+                padding: 20px;
+                margin: 0;
+            }
+            .credits p {
+                margin: 0;
+                padding: 0;
+            }
+            .top-bottom-line {
+                position: absolute;
+                left: 20px;
+                width: 96%;
+                height: 1px;
+                background-color: #0172BA;
+            }
+            .center {
+                text-align: center;
+            }
+        </style>
+    </head> 
+
+    <body>
+        <header class="head">
+            <div class="logo">
+                <img src="images/logos/traveltimehorizontal.png" alt="logo">
+            </div>
+                <div class="sign-in">
+                    <button>Sign-in</button>
+                </div>
+        </header>               
+
+        <nav> 
+            <ul class="navigation"> 
+                <li class="shape"><a href="#about" title="About Us">About Us</a></li> 
+                <li class="shape"><a href="#countries" title="Countries">Countries</a></li> 
+                <li class="shape"><a href="#seminars" title="Seminars">Seminars</a></li> 
+                <li class="shape"><a href="#photos" title="Photos">Photos</a></li> 
+                <li class="shape"><a href="#travel" title="Travel">Travel</a></li> 
+            </ul> 
+        </nav>
+
+        <main>
+            <div class="container">
+                <section class="left">
+                    <h2 class="background">Canoeing</h2> 
+                        <p>Canoeing is an activity which involves paddling a canoe with a single-bladed paddle. Common meanings of the term are limited to when the canoeing is the central purpose of the activity. Broader meanings include when it is combined with other activities such as canoe camping, or where canoeing is merely a transportation method used to accomplish other activities. Most present-day canoeing is done as or as a part of a sport or recreational activity. In some parts of Europe canoeing refers to both canoeing and kayaking, with a canoe being called an open canoe.</p> 
+                        <p>Canoes were developed by cultures all over the world, including some designed for use with sails or outriggers. Until the mid-1800s the canoe was an important means of transport for exploration and trade, and in some places it still is used as such, perhaps with the addition of an outboard motor. Where the canoe played a key role in history, such as the northern United States, Canada, and New Zealand, it remains an important theme in popular culture.</p> 
+                    <h2 class="background">Type of Canoes</h2> 
+                        <ul> 
+                            <li>Sprint</li> 
+                            <li>Slalom and wildwater</li> 
+                            <li>Marathon</li> 
+                            <li>General Recreation</li> 
+                            <li>Touring and camping</li> 
+                            <li>Freestyle</li> 
+                        </ul>
+                </section>
+
+                <section class="middle">
+                    <div class="content">
+                        <h2 class="background">Hiking</h2>
+                        <div class="text-wrapper">
+                            <img src="images/hiking150/hikingmountains150.jpg" alt="sunny mountain" class="left-image"> 
+                            <p>In the United States, Canada, the Republic of Ireland, and United Kingdom, hiking means walking outdoors on a trail, or off trail, for recreational purposes. A day hike refers to a hike that can be completed in a single day. However, in the United Kingdom, the word walking is also used, as well as rambling, while walking in mountainous areas is called hillwalking. In Northern England, Including the Lake District and Yorkshire Dales, fellwalking describes hill or mountain walks, as fell is the common word for both features there.</p> 
+                        </div>
+                    <div class="content">
+                            <img src="images/hiking150/winterhiker150.jpg" alt="mountain" class="right-image">
+                            <p>Hiking sometimes involves bushwhacking and is sometimes referred to as such. This specifically refers to difficult walking through dense forest, undergrowth, or bushes, where forward progress requires pushing vegetation aside. In extreme cases of bushwhacking, where the vegetation is so dense that human passage is impeded, a machete is used to clear a pathway. The Australian term bushwalking refers to both on and off-trail hiking. Common terms for hiking used by New Zealanders are tramping (particularly for overnight and longer trips), walking or bushwalking. Trekking is the preferred word used to describe multi-day hiking in the mountainous regions of India, Pakistan, Nepal, North America, South America, Iran, and the highlands of East Africa. Hiking a long-distance trail from end-to-end is also referred to as trekking and as thru-hiking in some places. In North America, multi-day hikes, usually with camping, are referred to as backpacking.</p> 
+                    </div>
+                    </div>
+                    <section class="table">
+                        <h2 class="trails-heading">Trails - 2023/2024</h2>
+                        <div class="table-container">
+                            <div class="national">
+                                <h2>National Parks (partial list)</h2> 
+                                    <ul>
+                                        <li>Banff National Park</li> 
+                                        <li>Cape Breton Highlands National Park</li> 
+                                        <li>Point Palee National Parl</li> 
+                                    </ul>
+                            </div>
+                                <div class="divider"></div>
+                                    <div class="provincial">
+                                        <h2>Provincial Parks</h2> 
+                                            <ul>
+                                                <li>Bronte Creek Provincial Park</li>
+                                                <li>Rock Point Provincial Park</li>
+                                                <li>Selkirk Provincial Park</li>
+                                            </ul>
+                                    </div>
+                        </div>
+                    </section>
+                </section>
+
+                    <div class="right">
+                        <img src="images/ads/mountainsThinkBig.jpg" alt="advertised picture 1">
+                        <img src="images/ads/greymountain.jpg" alt="advertised picture 2">
+                    </div>
+                </div>
+        </main>
+                <section id="photos">
+                    <h3 class="background">Gallery</h3>
+                    <div class="gallery">
+                        <img src="images/outdoor150/outdoor150-1.jpg" alt="Picture 1" class="provided">
+                        <img src="images/outdoor150/outdoor150-2.jpg" alt="Picture 2" class="provided">
+                        <img src="images/outdoor150/outdoor150-3.jpg" alt="Picture 3" class="provided">
+                        <img src="images/outdoor150/outdoor150-4.jpg" alt="Picture 4" class="provided">
+                        <img src="images/outdoor150/outdoor150-5.jpg" alt="Picture 5" class="provided">
+                        <img src="images/outdoor150/outdoor150-6.jpg" alt="Picture 6" class="provided">
+                        <img src="images/outdoor150/outdoor150-7.jpg" alt="Picture 7" class="provided">
+                        <img src="images/outdoor150/outdoor150-8.jpg" alt="Picture 8" class="provided">
+                        <img src="images/outdoor150/outdoor150-9.jpg" alt="Picture 9" class="provided">
+                        <img src="images/outdoor150/outdoor150-10.jpg" alt="Picture 10" class="provided">
+                        <img src="images/outdoor150/outdoor150-11.jpg" alt="Picture 11" class="provided">
+                        <img src="images/outdoor150/outdoor150-12.jpg" alt="Picture 12" class="provided">
+                        <img src="images/outdoor150/outdoor150-13.jpg" alt="Picture 13" class="adjust">
+                        <img src="images/outdoor150/outdoor150-14.jpg" alt="Picture 14" class="adjust">
+                        <img src="images/outdoor150/outdoor150-15.jpg" alt="Picture 15" class="adjust">
+                    </div>
+                </section>
+
+                <div class="credits">
+                    <div class="top-bottom-line"></div>
+                        <p class="center">Credits</p>
+                        <p>Text content was obtained from appropriate Wikipedia pages. Images were obtained from unsplash.com, social media buttons were generated at iconmonstr.com and logos were created at logomaker.com. License agreements for images do not require citation for non-profit use.</p>
+                    <div class="top-bottom-line"></div>
+                </div>
+
+        <footer class="footer-grid">
+            <div id="about" class="about-us">
+                <p class="line">About Us</p>
+                <p>Who we are</p>
+                <p>What we stand for</p>
+                <p>How can you help</p>
+            </div>
+
+            <section class="travel-time" id="travel">
+            <h3>Travel Time</h3>
+            <a href="https://twitter.com" target="_blank"><img src="images/socialmedia/twitter32.png" alt="twitter"></a>
+            <a href="https://instagram.com" target="_blank"><img src="images/socialmedia/instagram32.png" alt="instagram"></a>
+            <a href="https://pinterest.com" target="_blank"><img src="images/socialmedia/pinterest32.png" alt="pinterest"></a>
+            <a href="https://youtube.com" target="_blank"><img src="images/socialmedia/youtube32.png" alt="youtube"></a>
+            <a href="https://gmail.com" target="_blank"><img src="images/socialmedia/emailat32.png" alt="email"></a>
+            </section>
+            
+            <div id="seminars" class="seminars">
+                <p class="line">Seminars</p>
+                <p>Trip Planning</p>
+                <p>Hiking</p>
+                <p>Camping</p>
+            </div>
+
+            <div id="countries" class="countries">
+                <p class="line">Countries</p>
+                <p>Belgium</p>
+                <p>Canada</p>
+                <p>China</p>
+                <p>Copenhagen</p>
+                <p>Cyprus</p>
+                <p>Greece</p>
+                <p>India</p>
+                <p>Italy</p>
+                <p>Japan</p>
+                <p>New Zealand</p>
+                <p>Nigeria</p>
+                <p>Turkey</p>
+                <p>United States</p>
+            </div>
+        </footer> 
+    </body> 
+</html>
